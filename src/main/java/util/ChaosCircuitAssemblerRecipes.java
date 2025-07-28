@@ -24,7 +24,7 @@ public class ChaosCircuitAssemblerRecipes {
         .minInputs(1, 1)
         .progressBar(GTUITextures.PROGRESSBAR_CIRCUIT_ASSEMBLER)
         // .disableRegisterNEI()
-        .disableOptimize()
+        //.disableOptimize()
         .build();
 
     public static void addChaosCircuitAssemblerRecipes() {
