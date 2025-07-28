@@ -34,7 +34,7 @@ public class SingularityFluidRecipes {
     public static void addSingularityFluidRecipes(String Dim, FluidStack OutPutFluid) {
         GTValues.RA.stdBuilder()
             .fluidOutputs(OutPutFluid)
-            .noOptimize()
+            // .noOptimize()
             .fake()
             .setNEIDesc(Dim)
             .duration(60)
